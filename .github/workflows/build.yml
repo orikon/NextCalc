@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12"]
 
     steps:
     - uses: actions/checkout@v4
@@ -52,7 +52,7 @@ jobs:
 
     - name: Start Python service
       run: |
-        uv run main.py & # 启动服务到后台
+        uv run main.py & # background port listening
         echo "Waiting for service to start on port 8000..."
       working-directory: backend
 
