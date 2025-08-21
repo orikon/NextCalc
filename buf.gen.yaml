@@ -1,0 +1,11 @@
+version: v2
+plugins:
+  - remote: buf.build/protocolbuffers/python
+    out: ./backend/gen/
+  - remote: buf.build/protocolbuffers/pyi
+    out: ./backend/gen/
+  - local: backend/.venv/bin/protoc-gen-connect_python
+    out: ./backend/gen/
+
+  - remote: buf.build/bufbuild/es
+    out: ./frontend/app/gen/

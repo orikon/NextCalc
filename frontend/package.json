@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@connectrpc/connect": "^2.0.4",
+    "@connectrpc/connect-web": "^2.0.4",
+    "next": "^15.4.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.7.0",
+    "@testing-library/react": "^16.3.0",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5"
+  }
+}

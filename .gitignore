@@ -1,0 +1,17 @@
+# Node.js modules
+node_modules/
+
+# Next.js build output
+.next/
+.swc/
+
+# Other common ignore patterns (optional, but good practice)
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+.vscode/
